@@ -1,1 +1,43 @@
+52 шаг
+
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.266:1124) : proctitle=sudo ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.266:1124) : item=0 name=/usr/share/locale/ru.UTF-8/LC_MESSAGES/sudoers.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.266:1124) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.266:1124) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x55cced461610 a2=O_RDONLY a3=0x0 items=1 ppid=2826 pid=3371 auid=dark uid=dark gid=dark euid=root suid=root fsuid=root egid=dark sgid=dark fsgid=dark tty=pts1 ses=4 comm=sudo exe=/usr/bin/sudo subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.266:1125) : proctitle=sudo ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.266:1125) : item=0 name=/usr/share/locale/ru.utf8/LC_MESSAGES/sudoers.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.266:1125) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.266:1125) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x55cced461720 a2=O_RDONLY a3=0x0 items=1 ppid=2826 pid=3371 auid=dark uid=dark gid=dark euid=root suid=root fsuid=root egid=dark sgid=dark fsgid=dark tty=pts1 ses=4 comm=sudo exe=/usr/bin/sudo subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.270:1151) : proctitle=sudo ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.270:1151) : item=1 name=/home/dark/.sudo_as_admin_successful inode=1962726 dev=08:01 mode=file,644 ouid=dark ogid=dark rdev=00:00 nametype=NORMAL cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=PATH msg=audit(16.06.2026 17:58:08.270:1151) : item=0 name=/home/dark/ inode=1962242 dev=08:01 mode=dir,700 ouid=dark ogid=dark rdev=00:00 nametype=PARENT cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.270:1151) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.270:1151) : arch=x86_64 syscall=openat success=no exit=EEXIST(Файл существует) a0=AT_FDCWD a1=0x55cced46db50 a2=O_WRONLY|O_CREAT|O_EXCL|O_NONBLOCK a3=0x1a4 items=2 ppid=2826 pid=3371 auid=dark uid=dark gid=dark euid=dark suid=root fsuid=dark egid=dark sgid=dark fsgid=dark tty=pts1 ses=4 comm=sudo exe=/usr/bin/sudo subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.274:1163) : proctitle=ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.274:1163) : item=0 name=/usr/share/locale/ru_RU.UTF-8/LC_MESSAGES/libc.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.274:1163) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.274:1163) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x56227385f8a0 a2=O_RDONLY a3=0x0 items=1 ppid=3373 pid=3374 auid=dark uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts2 ses=4 comm=ausearch exe=/usr/sbin/ausearch subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.274:1164) : proctitle=ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.274:1164) : item=0 name=/usr/share/locale/ru_RU.utf8/LC_MESSAGES/libc.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.274:1164) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.274:1164) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x5622738650a0 a2=O_RDONLY a3=0x0 items=1 ppid=3373 pid=3374 auid=dark uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts2 ses=4 comm=ausearch exe=/usr/sbin/ausearch subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.274:1165) : proctitle=ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.274:1165) : item=0 name=/usr/share/locale/ru_RU/LC_MESSAGES/libc.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.274:1165) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.274:1165) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x56227385d670 a2=O_RDONLY a3=0x0 items=1 ppid=3373 pid=3374 auid=dark uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts2 ses=4 comm=ausearch exe=/usr/sbin/ausearch subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.274:1166) : proctitle=ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.274:1166) : item=0 name=/usr/share/locale/ru.UTF-8/LC_MESSAGES/libc.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.274:1166) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.274:1166) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x562273868ed0 a2=O_RDONLY a3=0x0 items=1 ppid=3373 pid=3374 auid=dark uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts2 ses=4 comm=ausearch exe=/usr/sbin/ausearch subj=unconfined key=access-denied 
+----
+type=PROCTITLE msg=audit(16.06.2026 17:58:08.274:1167) : proctitle=ausearch -k access-denied -i 
+type=PATH msg=audit(16.06.2026 17:58:08.274:1167) : item=0 name=/usr/share/locale/ru.utf8/LC_MESSAGES/libc.mo nametype=UNKNOWN cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(16.06.2026 17:58:08.274:1167) : cwd=/home/dark 
+type=SYSCALL msg=audit(16.06.2026 17:58:08.274:1167) : arch=x86_64 syscall=openat success=no exit=ENOENT(Нет такого файла или каталога) a0=AT_FDCWD a1=0x562273870de0 a2=O_RDONLY a3=0x0 items=1 ppid=3373 pid=3374 auid=dark uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts2 ses=4 comm=ausearch exe=/usr/sbin/ausearch subj=unconfined key=access-denied 
 
