@@ -1,1 +1,18 @@
 
+gpg: проверка таблицы доверия
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: глубина: 0  достоверных:   1  подписанных:   0  доверие: 0-, 0q, 0n, 0m, 0f, 1u
+/home/dark/.gnupg/pubring.kbx
+-----------------------------
+pub   rsa4096 2026-06-16 [SC]
+      D2C51C4DB5FE892BB5E422627C891ECB685FD536
+uid         [  абсолютно ] darkevich (1) <roman.aleksandrov06@mail.ru>
+sub   rsa4096 2026-06-16 [E]
+
+dark@debian:~$ gpg --list-secret-keys --keyid-format LONG
+/home/dark/.gnupg/pubring.kbx
+-----------------------------
+sec   rsa4096/7C891ECB685FD536 2026-06-16 [SC]
+      D2C51C4DB5FE892BB5E422627C891ECB685FD536
+uid               [  абсолютно ] darkevich (1) <roman.aleksandrov06@mail.ru>
+ssb   rsa4096/66EA7A0D5421843D 2026-06-16 [E]
