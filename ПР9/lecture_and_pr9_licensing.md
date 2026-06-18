@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 АЛЕКСАНДРОВ <ДА ДА НЕТ НЕТ ДА БУДЕТ СВТЕ>
+
+SPDX-License-Identifier: MIT
+-->
+
 # Лекция и практическая работа №10
 # Лицензирование, SPDX и open-source compliance
 
